@@ -1,0 +1,6 @@
+{
+  "watch": ["server.ts","lib"],
+  "ext": "ts,tsx",
+  "ignore": ["node_modules"],
+  "exec": "node --loader ts-node/esm ./server.ts"
+}
