@@ -15,8 +15,8 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "types": ["vite/client"],
-    "noEmit": true,
+    "sourceMap": true,
+    "outDir": "./dist"
   },
-  "include": ["server.ts", "src", "lib"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["server.ts", "lib"],
 }
